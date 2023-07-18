@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  color: #f5f5f5;
+  background-color: #f05454;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(203, 203, 203);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #f05454;
+}
+
+body {
+  overflow-x: hidden;
+}
